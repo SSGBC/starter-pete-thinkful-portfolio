@@ -8,6 +8,39 @@ body {
   padding: 40px;
 }
 
+/* Flex settings */
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  text-align: right;
+  flex: 1;
+}
+
+.second-item {
+  flex: 1;
+  text-align: left;
+  margin: auto;
+  padding-left: 15px;
+}
+
+.info {
+  text-align: left;
+}
+
+.portfolio {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Project Descriptions */
+.size {
+  font-size: 14px;
+}
+
 /* Headings */
 h1,
 h2,
@@ -19,6 +52,7 @@ h3 {
 /* Header */
 header {
   text-align: center;
+
 }
 
 /* Containers */
@@ -76,3 +110,4 @@ footer {
 hr {
   border: 1px solid black;
 }
+
